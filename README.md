@@ -2,7 +2,9 @@
 
 The ultimate and easy scalable DiscordJS v.14 starting point for your Bot
 
-Link to the v.13.8 starting point: https://github.com/spoeky-dev/DiscordJS-13
+If you like this project, please consider giving it a star so other people are more likely to find it! :)
+
+If you are interested in a repository for the v.13 DiscordJS starting point, check out https://github.com/spoeky-dev/DiscordJS-13!
 
 ## Features
 
