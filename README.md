@@ -18,7 +18,7 @@ Link to the v.13.8 starting point: https://github.com/spoeky-dev/DiscordJS-13
 First, clone this repository.
 
 ```bash
-git clone https://github.com/spoeky-dev/DiscordJS.git
+git clone https://github.com/spoeky-dev/DiscordJS-14.git
 ```
 Then, install the necessary requirements.
 ```bash
