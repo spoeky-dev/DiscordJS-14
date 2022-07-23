@@ -6,10 +6,12 @@ module.exports = {
         if (interaction.isChatInputCommand()) {
             const { commands } = client;
             const { commandName } = interaction;
+            // Check if the interaction is a command
             const command = commands.get(commandName);
             if (!command) return;
 
             try {
+                // Try to execute the command
                 await command.execute(interaction, client);
             } catch (error) {
                 console.log(error);
