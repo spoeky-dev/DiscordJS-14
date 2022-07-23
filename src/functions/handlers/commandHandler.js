@@ -20,15 +20,15 @@ module.exports = (client) => {
                 // Add the command to the command collection and array
 
                 commands.set(command.data.name, command);
-                commandArray.push(command, command.data.toJSON());
+                commandArray.push(command.data.toJSON());
                 console.log(`COMMAND: + ${command.data.name}`)
             }
         }
 
         // Bot ID
-        const clientID = '';
+        const clientID = '987757406299754516';
         // Server ID
-        const guildID = '';
+        const guildID = '987757885704503346';
 
         const rest = new REST({ version: 9 }).setToken(process.env.token);
 
@@ -54,10 +54,11 @@ module.exports = (client) => {
 
                 */
 
-                Routes.applicationGuildCommands(clientId, guildId),
+                Routes.applicationGuildCommands(clientID, guildID),
                 {
                     body: client.commandArray
-                });
+                }
+            );
 
             console.log('SLASH: Successfully refreshed application commands');
         } catch (error) {
