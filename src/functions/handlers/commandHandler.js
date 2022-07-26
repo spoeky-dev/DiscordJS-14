@@ -21,14 +21,14 @@ module.exports = (client) => {
 
                 commands.set(command.data.name, command);
                 commandArray.push(command.data.toJSON());
-                console.log(`COMMAND: + ${command.data.name}`)
+                console.log(`COMMAND: Found '${command.data.name}'`)
             }
         }
 
         // Bot ID
-        const clientID = '987757406299754516';
+        const clientID = '';
         // Server ID
-        const guildID = '987757885704503346';
+        const guildID = '';
 
         const rest = new REST({ version: 9 }).setToken(process.env.token);
 
